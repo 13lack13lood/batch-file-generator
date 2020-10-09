@@ -5,6 +5,6 @@ if not exist "Main.class" (
 
 java Main
 echo;
-echo Press any key to close.
-echo Closing in 30 seconds...
-timeout /t 30
+echo Closing in 3 seconds...
+timeout /t 3 > nul
+exit 0
